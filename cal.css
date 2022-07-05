@@ -1,0 +1,39 @@
+
+.sec{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+.btn{
+    padding: 10px 15px;
+    margin: 15px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: blue
+}
+.btn:hover
+{
+    background-color: cyan;
+}
+input
+{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+}
+.cl{
+    padding: 10px 15px;
+    margin: 15px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.cl:hover
+{
+    background-color: cyan;
+}
+.main-btn
+{
+ background-color: blanchedalmond;
+}

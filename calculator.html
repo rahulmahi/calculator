@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+
+<body>
+    <section class="sec">
+        <div class="main-btn">
+            <h1>CALCULATOR</h1>
+
+            <input type="text" placeholder="00" id="input-box" name="number">
+            <button class="cl" onclick="clear1('')">cl</button>
+
+            <div>
+                <button class="btn" onclick="val(1)" id="one">1</button>
+                <button class="btn" onclick="val(2)" id="">2</button>
+                <button class="btn" onclick="val(3)" id="">3</button>
+                <button class="btn" onclick="opera('+')">+</button>
+            </div>
+
+            <div>
+                <button class="btn" onclick="val(4)" id="">4</button>
+                <button class="btn" onclick="val(5)" id="">5</button>
+                <button class="btn" onclick="val(6)" id="">6</button>
+                <button class="btn" onclick="opera('-')">-</button>
+            </div>
+
+            <div>
+                <button class="btn" onclick="val(7)">7</button>
+                <button class="btn" onclick="val(8)">8</button>
+                <button class="btn" onclick="val(9)">9</button>
+                <button class="btn" onclick="opera('*')">*</button>
+            </div>
+
+            <div>
+                <button class="btn" onclick="val('.')">.</button>
+                <button class="btn" onclick="val(1)">0</button>
+                <button class="btn" onclick="result('=')">=</button>
+                <button class="btn" onclick="opera('/')">/</button>
+            </div>
+        </div>
+    </section>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
